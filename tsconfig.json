@@ -1,0 +1,23 @@
+// Fron https://github.com/TypeStrong/ts-node/issues/2122#issue-2348436777
+{
+  // TypeScript compiler configuration options
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": true
+  },
+  // ts-node specific configurations
+  "ts-node": {
+    "esm": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "leetcode-ts",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "start": "ts-node-esm ./src/index.ts" 
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.2"
+    }
+}
